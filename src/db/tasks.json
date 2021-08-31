@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "task": "Почистить картошку",
+        "completed": false,
+        "active": true,
+        "all": true
+    },
+    {
+        "id": 2,
+        "task": "Помыть полы",
+        "completed": false,
+        "active": true,
+        "all": true
+    },
+    {
+        "id": 3,
+        "task": "Сходить в магазин",
+        "completed": true,
+        "active": false,
+        "all": true
+    },
+    {
+        "id": 4,
+        "task": "Вынести мусор",
+        "completed": false,
+        "active": true,
+        "all": true
+    },
+    {
+        "id": 5,
+        "task": "Выспаться!!!!",
+        "completed": false,
+        "active": true,
+        "all": true
+    }
+]

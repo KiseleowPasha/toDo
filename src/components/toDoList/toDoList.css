@@ -1,0 +1,41 @@
+.input-task{
+    width: 40%;
+    margin-bottom: 4%;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tasks{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.task-button{
+    width: 1vw;
+    height: 1vw;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.additional-features{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+.additional-features span {
+    cursor: pointer;
+}
+.delete-button{
+    opacity: 0;
+    cursor: pointer;
+}
+.task:hover .delete-button{
+    opacity: 1;
+}
